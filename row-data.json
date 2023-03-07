@@ -1,19 +1,23 @@
 [
   { "make": "Porsche", "model": "Boxter", "price": 72000, "actions": [{
     "link": "google.fr",
-    "linkType": "DELETE"
+    "linkType": "DELETE",
+    "libelle": "Suppression"
   }] },
   { "make": "Porsche", "model": "Boxter", "price": 10000, "actions": [{
     "link": "google.fr",
-    "linkType": "POST"
+    "linkType": "POST",
+    "libelle": "Edition"
   }, {
     "className": "btn-primary",
     "link": "google.fr",
-    "linkType": "DELETE"
+    "linkType": "DELETE",
+    "libelle": "Suppression"
   }] },
   { "make": "Porsche", "model": "Boxter", "price": 500, "actions": [{
     "className": "trash-btn",
     "link": "google.fr",
-    "linkType": "DELETE"
+    "linkType": "DELETE",
+    "libelle": "Suppression"
   }] }
 ]
